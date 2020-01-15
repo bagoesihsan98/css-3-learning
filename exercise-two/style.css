@@ -10,4 +10,16 @@ body
     background-color: salmon;
     margin: 50px 100px;
     opacity: 0.5;
+    position: relative;
+}
+
+.inner-box
+{
+    width: 50px;
+    height: 50px;
+    background-color: slateblue;
+    opacity: 0.5;
+    position: absolute;
+    right: -25px;
+    bottom: -25px;
 }
