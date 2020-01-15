@@ -3,5 +3,6 @@
     height: 300px;
     width: 300px;
     background-color: salmon;
-    border-radius: 50%;
+    border-top-right-radius: 50%;
+    border-bottom-left-radius: 50%;
 }
