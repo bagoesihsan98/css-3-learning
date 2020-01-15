@@ -4,5 +4,11 @@
     width: 300px;
     background-color: salmon;
     border-radius: 0 50% 0 25%;
-    background: url(https://source.unsplash.com/random/300x300);
+    overflow: hidden;
+}
+
+.kotak img
+{
+    width: 100%;
+
 }
