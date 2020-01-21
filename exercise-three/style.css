@@ -8,7 +8,7 @@ body
 {
     height: 300px;
     width: 300px;
-    background-color: hsla(24,100%,68%,1);
+    background-color: hsla(48,100%,68%,.75);
     position: relative;
 }
 
