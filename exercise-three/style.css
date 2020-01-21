@@ -16,7 +16,7 @@ body
 {
     height: 100px;
     width: 100px;
-    background-color: rgba(255,255,0,.75);
+    background-color: hsla(20,60%,50%,.5);
     position: absolute;
     right: -50px;
     bottom: -50px;
