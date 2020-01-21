@@ -3,5 +3,5 @@
     width: 600px;
     height: 300px;
     margin: 50px auto;
-    background: radial-gradient(red, green);
+    background: radial-gradient(circle, red, green);
 }
