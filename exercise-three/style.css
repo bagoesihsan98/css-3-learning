@@ -8,7 +8,7 @@ body
 {
     height: 300px;
     width: 300px;
-    background-color: rgba(255,102,0,.25);
+    background-color: rgba(255,102,0,1);
     position: relative;
 }
 
@@ -16,7 +16,7 @@ body
 {
     height: 100px;
     width: 100px;
-    background-color: lightskyblue;
+    background-color: rgba(255,255,0,.75);
     position: absolute;
     right: -50px;
     bottom: -50px;
