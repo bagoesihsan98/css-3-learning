@@ -1,0 +1,8 @@
+.title
+{
+    font-size: 100px;
+    margin: 25px;
+    text-shadow: 15px 5px 0px green,
+                 25px 10px 0px limegreen,
+                 35px 15px 0px greenyellow;
+}
