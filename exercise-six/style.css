@@ -1,0 +1,7 @@
+.gradient-box
+{
+    width: 600px;
+    height: 300px;
+    margin: 50px auto;
+    background-image: linear-gradient(salmon, limegreen, lightskyblue, lightgray);
+}
