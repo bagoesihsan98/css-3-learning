@@ -1,0 +1,22 @@
+img
+{
+    margin: 50px auto;
+    display: block;
+    width: 50%;
+    height: auto;
+}
+
+img
+{
+    filter: drop-shadow(5px 5px 5px black)
+            grayscale(1)
+            blur(5px);
+    transition: .5s;
+}
+
+img:hover
+{
+    filter: drop-shadow(5px 5px 5px black)
+            grayscale(0)
+            blur(0px);
+}
