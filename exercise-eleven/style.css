@@ -1,0 +1,37 @@
+.lorem
+{
+    font-size: 20px;
+    text-align: center;
+}
+
+/* Transform Properties */
+/*
+
+    1. scale()
+    2. scaleX()
+    3. scaleY()
+    4. rotate()
+    5. rotateX()
+    6. rotateY()
+    7. skew()
+    8. skewX()
+    9. skewY()
+    10. translate()
+    11. translateX()
+    12. translateU()
+
+*/
+
+.box
+{
+    width: 200px;
+    height: 200px;
+    background-color: lightblue;
+    margin: 50px auto 0;
+    transition: .3s;
+}
+
+.box:hover
+{
+    transform: translate(100px);
+}
