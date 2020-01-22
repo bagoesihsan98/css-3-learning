@@ -1,0 +1,80 @@
+
+@font-face
+{
+    font-family: "Montserrat";
+    src: url(../exercise-eight/Montserrat-Regular.ttf) format("truetype");
+}
+
+body
+{
+    font-family: "Montserrat",Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+.first-section
+{
+    width: 50%;
+    margin: 50px auto;
+    background-color: gray;
+    border: 1px solid black;
+    padding: 10px;
+}
+
+.first-section .first-section-title
+{
+    text-align: center;
+    color: white;
+}
+
+.b-radius-box-container
+{
+    width: 80%;
+    margin: 10px auto;
+    background-color: black;
+    border: 1px solid white;
+}
+
+.box-radius
+{
+    width: 100px;
+    height: 100px;
+    margin: 20px 10px;
+    text-align: center;
+    line-height: 100px;
+    color: white;
+    border: 1px solid white;
+    float: left;
+}
+
+/* Clearfix */
+.b-radius-box-container::before,
+.b-radius-box-container::after
+{
+    content: "";
+    display: block;
+}
+
+.b-radius-box-container::after
+{
+    clear: both;
+}
+
+.fivepx-radius
+{
+    border-radius: 5px;
+}
+
+.tenpx-radius
+{
+    border-radius: 10px;
+}
+
+.twentyfivepx-radius
+{
+    border-radius: 25px;
+}
+
+.fiftypercent-radius
+{
+    border-radius: 50%;
+}
