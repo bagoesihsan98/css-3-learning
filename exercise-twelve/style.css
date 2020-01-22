@@ -1,0 +1,50 @@
+.container
+{
+    width: 900px;
+    margin: 10xp auto;
+    border: 1px solid black;
+    padding: 10px;
+}
+
+.box
+{
+    height: 50px;
+    width: 50px;
+    margin: 10px;
+}
+
+.ease-box
+{
+    background-color: salmon;
+    transition: all 3s ease;
+}
+
+.ease-in-box
+{
+    background-color: royalblue;
+    transition: all 3s ease-in;
+}
+
+.ease-out-box
+{
+    background-color: limegreen;
+    transition: all 3s ease-out;
+}
+
+.ease-in-out-box
+{
+    background-color: lime;
+    transition: all 3s ease-in-out;
+}
+
+.linear-box
+{
+    background-color: mediumblue;
+    transition: all 3s linear;
+}
+
+.container:hover .box
+{
+    transform: rotate(720deg);
+    margin-left: 700px;
+}
