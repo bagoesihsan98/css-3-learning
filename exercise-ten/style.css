@@ -6,6 +6,23 @@ img
     height: auto;
 }
 
+/* Properti dari filter */
+/*
+
+    1. blur()
+    2. brightness()
+    3. contrast()
+    4. drop-shadow()
+    5. grayscale()
+    6. hue-rotate()
+    7. invert()
+    8. opacity()
+    9. saturate()
+    10. sepia()
+    11. url()
+
+*/
+
 img
 {
     filter: drop-shadow(5px 5px 5px black)
