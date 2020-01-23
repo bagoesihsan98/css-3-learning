@@ -150,3 +150,67 @@ body
     top: -25px;
     right: -25px;
 }
+
+/* Third Section */
+.third-section
+{
+    width: 50%;
+    border: 1px solid black;
+    background-color: lightcoral;
+    margin: 100px auto;
+    padding: 10px;
+}
+
+.third-section .third-section-title
+{
+    text-align: center;
+}
+
+.third-section .outer-box-color
+{
+    width: 300px;
+    height: 300px;
+    background-color: rgba(255,48,125,1);
+    margin: 10px auto;
+    position: relative;
+}
+
+.third-section .inner-boxes-color-one
+{
+    width: 100px;
+    height: 100px;
+    background-color: rgba(255,255,108,.75);
+    position: absolute;
+    top: 50px;
+    left: -25px;
+}
+
+.third-section .depth-boxes-color-one
+{
+    width: 50px;
+    height: 50px;
+    background-color: rgba(128,128,128,1);
+    position: absolute;
+    top: -15px;
+    right: -15px;
+}
+
+.third-section .inner-boxes-color-two
+{
+    width: 100px;
+    height: 100px;
+    background-color: rgba(205,105,5,1);
+    position: absolute;
+    top: -15px;
+    right: -55px;
+}
+
+.third-section .depth-boxes-color-two
+{
+    width: 50px;
+    height: 50px;
+    background-color: hsla(70,58%,68%,1);
+    position: absolute;
+    right: -15px;
+    bottom: -15px;
+}
