@@ -266,3 +266,53 @@ body
     background-color: rgba(0,125,125,1);
     box-shadow: 1px 25px 5px -15px rgba(0,0,0,.5);
 }
+
+/* Fifth Section */
+.fifth-section
+{
+    width: 50%;
+    margin: 100px auto;
+    padding: 10px;
+    border: 1px solid black;
+}
+
+.fifth-section .fifth-section-title
+{
+    text-align: center;
+    margin: 10px;
+}
+
+.fifth-section .text-shadow-container
+{
+    width: 500px;
+    border: 1px solid black;
+    padding: 10px;
+    margin: 10px auto;
+}
+
+.fifth-section .first-text-shadow
+{
+    text-align: center;
+    font-size: 30px;
+    padding: 20px;
+    text-shadow: 5px 5px 5px rgba(255,50,255,1);
+    margin: 50px 0;
+}
+
+.fifth-section .second-text-shadow
+{
+    text-align: center;
+    font-size: 28px;
+    padding: 20px;
+    text-shadow: 0 0 15px rgba(255,255,0,1);
+    margin: 50px 0;
+}
+
+.fifth-section .third-text-shadow
+{
+    text-align: center;
+    font-size: 32px;
+    padding: 20px;
+    text-shadow: 0 0 15px salmon, 0 -15px 15px lightblue, 0 15px 15px maroon;
+    margin: 50px 0;
+}
