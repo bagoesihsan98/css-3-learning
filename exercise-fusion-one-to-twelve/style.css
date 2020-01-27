@@ -434,3 +434,46 @@ body
 {
     background: radial-gradient(circle farthest-corner at top left, blue, yellow, purple);
 }
+
+/* Eight Section */
+
+.eight-section
+{
+    width: 50%;
+    margin: 100px auto;
+    padding: 10px;
+    border: 1px solid black;
+}
+
+.eight-section .eight-section-title
+{
+    text-align: center;
+    margin: 10px;
+}
+
+.eight-section .filter-container
+{
+    width: 80%;
+    margin: 10px auto;
+    padding: 20px;
+}
+
+.eight-section .box-img
+{
+    margin: 10px;
+}
+
+.eight-section .first-filter-img
+{
+    filter: blur(5px) grayscale(1);
+}
+
+.eight-section .second-filter-img
+{
+    filter: drop-shadow(5px 5px 10px black);
+}
+
+.eight-section .third-filter-img
+{
+    filter: sepia(1) drop-shadow(3px 3px 3px rgba(0,0,0,.5));
+}
