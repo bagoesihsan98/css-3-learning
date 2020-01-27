@@ -374,3 +374,63 @@ body
 {
     background: linear-gradient(to top left, salmon, skyblue, maroon, orange);
 }
+
+/* Seventh Section */
+
+.seventh-section
+{
+    width: 50%;
+    margin: 100px auto;
+    padding: 10px;
+    border: 1px solid black;
+}
+
+.seventh-section .seventh-section-title
+{
+    text-align: center;
+    margin: 10px;
+}
+
+.seventh-section .radial-gradient-container
+{
+    width: 80%;
+    margin: 10px auto;
+    border: 1px solid black;
+    padding: 20px;
+}
+
+.seventh-section .circle
+{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    float: left;
+    margin: 20px;
+}
+
+.seventh-section .radial-gradient-container::before,
+.seventh-section .radial-gradient-container::after
+{
+    content: "";
+    display: block;
+}
+
+.seventh-section .radial-gradient-container::after
+{
+    clear: both;
+}
+
+.seventh-section .first-radial-gradient
+{
+    background: radial-gradient(circle, red, green, blue);
+}
+
+.seventh-section .second-radial-gradient
+{
+    background: radial-gradient(circle farthest-corner at bottom right, red, blue, yellow);
+}
+
+.seventh-section .third-radial-gradient
+{
+    background: radial-gradient(circle farthest-corner at top left, blue, yellow, purple);
+}
