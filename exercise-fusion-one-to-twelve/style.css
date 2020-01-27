@@ -316,3 +316,61 @@ body
     text-shadow: 0 0 15px salmon, 0 -15px 15px lightblue, 0 15px 15px maroon;
     margin: 50px 0;
 }
+
+/* Sixth Section */
+.sixth-section
+{
+    width: 50%;
+    margin: 100px auto;
+    border: 1px solid black;
+    padding: 10px;
+}
+
+.sixth-section .sixth-section-title
+{
+    text-align: center;
+}
+
+.sixth-section .linear-gradient-container
+{
+    width: 80%;
+    margin: 10px auto;
+    border: 1px solid black;
+    padding: 20px;
+}
+
+.sixth-section .box
+{
+    
+    height: 200px;
+    width: 200px;
+    margin: 20px;
+    float: left;
+}
+
+.sixth-section .linear-gradiet-container::before,
+.sixth-section .linear-gradient-container::after
+{
+    content: "";
+    display: block;
+}
+
+.sixth-section .linear-gradient-container::after
+{
+    clear: both;
+}
+
+.sixth-section .first-linear-gradient
+{
+    background: linear-gradient(to top right, salmon, lightgray, lightblue, limegreen, lime);
+}
+
+.sixth-section .second-linear-gradient
+{
+    background: linear-gradient(to bottom right, salmon, skyblue, lightgreen);
+}
+
+.sixth-section .third-linear-gradient
+{
+    background: linear-gradient(to top left, salmon, skyblue, maroon, orange);
+}
