@@ -543,5 +543,95 @@ body
 
 .ninth-section .fourth-box
 {
-    transform: translate(200px,300px);
+    transform: translate(100px,100px);
 }
+
+/* Tenth Section */
+
+.tenth-section
+{
+    width: 50%;
+    margin: 100px auto;
+    border: 1px solid black;
+    padding: 10px;
+}
+
+.tenth-section .tenth-section-title
+{
+    text-align: center;
+    margin: 10px;
+}
+
+.tenth-section .transition-container
+{
+    width: 80%;
+    margin: 10px auto;
+    border: 1px solid black;
+    padding: 20px;
+}
+
+.tenth-section .transition-container::before,
+.tenth-section .transition-container::after
+{
+    content: "";
+    display: block;
+}
+
+.tenth-section .transition-container::after
+{
+    clear: both;
+}
+
+.tenth-section .boxes
+{
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    border: 1px solid black;
+    margin: 20px 35px;
+    float: left;
+}
+
+.tenth-section .first-box
+{
+    transition: background-color 1s ease 1s, transform 1s ease;
+}
+.tenth-section .second-box
+{
+    transition: background-color 1s ease 3s, transform 1s ease 2s;
+}
+.tenth-section .third-box
+{
+    transition: background-color 1s ease 5s, transform 1s ease 4s;
+}
+.tenth-section .fourth-box
+{
+    transition: background-color 1s ease 7s, transform 1s ease 6s;
+}
+
+.tenth-section:hover .first-box
+{
+    background-color: lightblue;
+    transform: translateY(-150px);
+}
+
+.tenth-section:hover .second-box
+{
+    background-color: salmon;
+    transform: rotate(720deg) translateX(-150px);
+}
+
+.tenth-section:hover .third-box
+{
+    background-color: maroon;
+    transform: translateY(-250px) rotate(180deg) skew(15deg);
+}
+
+.tenth-section:hover .fourth-box
+{
+    background-color: skyblue;
+    transform: rotate(90deg) translateY(-200px);
+}
+
+
