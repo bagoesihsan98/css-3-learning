@@ -477,3 +477,71 @@ body
 {
     filter: sepia(1) drop-shadow(3px 3px 3px rgba(0,0,0,.5));
 }
+
+
+/* Ninth Section */
+
+.ninth-section
+{
+    width: 50%;
+    margin: 100px auto;
+    padding: 10px;
+    border: 1px solid black;
+}
+
+.ninth-section .ninth-section-title
+{
+    text-align: center;
+    margin: 10px;
+}
+
+.ninth-section .transform-container
+{
+    border: 1px solid black;
+    width: 80%;
+    margin: 10px auto;
+    padding: 20px;
+}
+
+.ninth-section .transform-container::before,
+.ninth-section .transform-container::after
+{
+    content: "";
+    display: block;
+}
+
+.ninth-section .transform-container::after
+{
+    clear: both;
+}
+
+.ninth-section .boxes
+{
+    width: 200px;
+    height: 200px;
+    line-height: 200px;
+    border: 1px solid black;
+    margin: 20px 22px;
+    text-align: center;
+    float: left;
+}
+
+.ninth-section .first-box
+{
+    transform: scale(1.25);
+}
+
+.ninth-section .second-box
+{
+    transform: rotate(-15deg);
+}
+
+.ninth-section .third-box
+{
+    transform: skew(30deg);
+}
+
+.ninth-section .fourth-box
+{
+    transform: translate(200px,300px);
+}
