@@ -634,4 +634,174 @@ body
     transform: rotate(90deg) translateY(-200px);
 }
 
+/* Eleventh Section */
+.eleventh-section
+{
+    width: 50%;
+    margin: 100px auto;
+    padding: 10px;
+    border: 1px solid black;
+}
 
+.eleventh-section .eleventh-section-title
+{
+    text-align: center;
+    margin: 10px;
+}
+
+.eleventh-section .animation-container
+{
+    margin: 10px auto;
+    border: 1px solid black;
+    padding: 20px;
+    width: 80%;
+}
+
+.eleventh-section .animation-container::before,
+.eleventh-section .animation-container::after
+{
+    content: "";
+    display: block;
+}
+
+.eleventh-section .animation-container::after
+{
+    clear: both;
+}
+
+.eleventh-section .boxes
+{
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    border: 1px solid black;
+    text-align: center;
+    margin: 25px 35px;
+    float: left;
+}
+
+.eleventh-section .first-box
+{
+    animation: boxAnimationFirst 2s ease-in-out infinite normal forwards;
+}
+
+.eleventh-section .second-box
+{
+    animation: boxAnimationSecond .5s ease infinite normal forwards;
+}
+
+.eleventh-section .third-box
+{
+    animation: boxAnimationThird 2s ease-in-out infinite reverse forwards;
+}
+
+.eleventh-section .fourth-box
+{
+    animation: boxAnimationFourth 2s ease infinite normal forwards;
+}
+
+
+
+@keyframes boxAnimationFirst
+{
+    0%
+    {
+        background-color: white;
+    }
+    50%
+    {
+        color: white;
+        background-color: black;
+        border-color: white;
+    }
+    100%
+    {
+        background-color: red;
+    }
+}
+@keyframes boxAnimationSecond
+{
+    0%
+    {
+        border-radius: 5px;
+    }
+
+    25%
+    {
+        border-radius: 10px;
+    }
+
+    50%
+    {
+        border-radius: 15px;
+    }
+
+    75%
+    {
+        border-radius: 20px;
+    }
+
+    100%
+    {
+        border-radius: 25px;
+    }
+}
+@keyframes boxAnimationThird
+{
+    0%
+    {
+        transform: rotate(0deg);
+    }
+
+    25%
+    {
+        transform: rotate(45deg);
+    }
+
+    50%
+    {
+        transform: rotate(90deg);
+    }
+
+    75%
+    {
+        transform: rotate(135deg);
+    }
+
+    100%
+    {
+        transform: rotate(180deg);
+    }
+}
+@keyframes boxAnimationFourth
+{
+    0%
+    {
+        height: 50px;
+        width: 50px;
+    }
+
+    25%
+    {
+        height: 75px;
+        width: 50px;
+    }
+
+    50%
+    {
+        height: 75px;
+        width: 75px;
+    }
+
+    75%
+    {
+        height: 100px;
+        width: 75px;
+    }
+
+    100%
+    {
+        height: 100px;
+        width: 100px;
+    }
+}
