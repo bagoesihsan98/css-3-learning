@@ -1,0 +1,39 @@
+.box
+{
+    width: 200px;
+    height: 200px;
+    background-color: salmon;
+    line-height: 200px;
+    text-align: center;
+    margin: 100px;
+    animation: boxAnimation 2s ease 1 normal forwards;
+}
+
+@keyframes boxAnimation
+{
+    0%
+    {
+        transform: translate(0px,0px);
+    }
+
+    25%
+    {
+        transform: translate(0px,100px);
+    }
+
+    50%
+    {
+        transform: translate(100px,100px);
+    }
+
+    75%
+    {
+        transform: translate(100px,0px);
+    }
+
+    100%
+    {
+        transform: translate(500px,0px);
+    }
+
+}
