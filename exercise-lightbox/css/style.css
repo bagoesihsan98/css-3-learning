@@ -111,13 +111,24 @@ h1
 
 .overlay img
 {
-    box-shadow: 1px 1px 5px 5px rgba(255,255,255,.5);
+    box-shadow: 1px 1px 5px rgba(0,0,0,.5);
     height: 100%;
 }
 
 .overlay:target img
 {
     animation: zoomAndFade 1s ease 1 normal forwards;
+}
+
+.overlay .close
+{
+    font-size: 40px;
+    color: white;
+    text-shadow: 1px 1px 5px rgba(0,0,0,.75);
+    text-decoration: none;
+    position: absolute;
+    left: 450px;
+    top: 50px;
 }
 
 /* Animation */
