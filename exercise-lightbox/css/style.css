@@ -44,7 +44,7 @@ h1
 }
 
 .gallery li,
-.gallery img,
+.gallery li a img,
 .gallery span
 {
     border-radius: 50%;
@@ -82,4 +82,35 @@ h1
 {
     opacity: 1;
     transform: scale(1) rotate(360deg);
+}
+
+/* Overlay */
+.overlay
+{
+    position: fixed;
+    width: 0;
+    height: 0;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    background-color: rgba(0,0,0,0);
+    z-index: 9999;
+    transition: .3s ease;
+    text-align: center;
+    padding: 100px 0;
+}
+
+.overlay:target
+{
+    width: auto;
+    height: auto;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,.75);
+}
+
+.overlay img
+{
+    box-shadow: 1px 1px 5px 5px rgba(255,255,255,.5);
+    height: 100%;
 }
