@@ -30,3 +30,56 @@ h1
     box-shadow: 0 0 3px 3px rgba(0,0,0,.3);
     border-radius: 15px;
 }
+
+.gallery::before,
+.gallery::after
+{
+    content: "";
+    display: block;
+}
+
+.gallery::after
+{
+    clear: both;
+}
+
+.gallery li,
+.gallery img,
+.gallery span
+{
+    border-radius: 50%;
+}
+
+.gallery li
+{
+    width: 120px;
+    height: 120px;
+    overflow: hidden;
+    border: 2px solid #fefefe;
+    float: left;
+    margin: 20px 38px;
+    position: relative;
+}
+
+.gallery li span
+{
+    display: block; 
+    width: 120px;
+    height: 120px;
+    background-color: rgba(200,200,200,.5);
+    position: absolute;
+    top: 0;
+    line-height: 120px;
+    text-align: center;
+    color: #333333;
+    text-shadow: 0px 1px 2px white;
+    opacity: 0;
+    transform: scale(0) rotate(0deg);
+    transition: .3s ease;
+}
+
+.gallery li a:hover span
+{
+    opacity: 1;
+    transform: scale(1) rotate(360deg);
+}
