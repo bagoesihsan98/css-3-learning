@@ -1,0 +1,32 @@
+/* Font */
+
+@font-face 
+{
+    font-family: "Bebas Neue";
+    src: url(../fonts/BebasNeue-Regular.woff) format("woff");
+}
+
+/* Main CSS */
+body
+{
+    font-family: 'Bebas Neue','Arial','Comic Sans MS';
+    font-size: 18px/36px;
+}
+
+h1
+{
+    font-size: 80px;
+    margin: 50px 0;
+    text-align: center;
+    text-shadow: 0 2px 2px rgba(0,0,0,.75);
+}
+
+.container
+{
+    width: 600px;
+    background-color: #efefef;
+    margin: auto;
+    padding: 20px;
+    box-shadow: 0 0 3px 3px rgba(0,0,0,.3);
+    border-radius: 15px;
+}
