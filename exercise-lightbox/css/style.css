@@ -127,8 +127,46 @@ h1
     text-shadow: 1px 1px 5px rgba(0,0,0,.75);
     text-decoration: none;
     position: absolute;
-    left: 450px;
+    left: 435px;
     top: 50px;
+    opacity: 0;
+}
+
+.overlay:target .close
+{
+    animation: theFade .3s ease 1s 1 normal forwards;
+}
+
+.overlay .nextBtn
+{
+    font-size: 240px;
+    color: white;
+    text-decoration: none;
+    margin-left: 60px;
+    position: absolute;
+    top: 225px;
+    opacity: 0;
+}
+
+.overlay:target .nextBtn
+{
+    animation: theFade .3s ease 1s 1 normal forwards;
+}
+
+.overlay .prevBtn
+{
+    font-size: 240px;
+    color: white;
+    text-decoration: none;
+    position: absolute;
+    top: 225px;
+    left: 380px;
+    opacity: 0;
+}
+
+.overlay:target .prevBtn
+{
+    animation: theFade .3s ease 1s 1 normal forwards;
 }
 
 /* Animation */
@@ -144,6 +182,19 @@ h1
     100%
     {
         transform: scale(1);
+        opacity: 1;
+    }
+}
+
+@keyframes theFade
+{
+    0%
+    {
+        opacity: 0;
+    }
+
+    100%
+    {
         opacity: 1;
     }
 }
